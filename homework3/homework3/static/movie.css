@@ -1,0 +1,148 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("images/background.png");
+	font-family: "Verdana", "Tahoma", sans-serif;
+	font-size: 8pt;
+}
+
+#headimg {
+	background-image: url("images/bannerbackground.png");
+	text-align: center;
+}
+
+#headimg img {
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	font-size: 24pt;
+}
+
+.nav_part {
+	position: absolute;
+	left: 72px;
+	font-size: 27px;
+}
+
+.nav_part li {
+	list-style: none;
+	border: 0.5px solid;
+	border-radius: 5px;
+	margin: 15px auto;
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	background-color: #FFDEAD;
+}
+
+.nav_part a {
+	text-decoration: none;
+	color: gray;
+}
+
+.mpart {
+	width: 800px;
+	margin: 0 auto;
+	border: 4px solid gray;
+	overflow: hidden;
+	position: relative;
+}
+
+.overview {
+	float: right;
+	width: 250px;
+	background-color: #A2B964;
+	font-size: 8pt;
+	font-family: "Arial", sans-serif;
+}
+
+.overview dl {
+	padding: 10px; 
+}
+
+.overview dt {
+	font-weight: bold;
+}
+
+.overview dd {
+	margin-bottom: 1em;
+}
+
+
+#review {
+	background-image: url("images/rottenbackground.png");
+	height: 83px;
+	overflow: hidden;
+}
+
+span#chaping {
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+	vertical-align: 13px;
+}
+
+span#chaping2 {
+	font-size: 8pt;
+	color: white;
+	vertical-align: 13px;
+}
+
+.comment {
+	width: 550px;
+	position: relative;
+	overflow: hidden;
+}
+
+.comment1, .comment2 {
+	width: 47%;
+	margin-left: 2%;
+	float: left;
+}
+
+.com {
+	border: 2px solid gray;
+	padding: 8px;
+	font-size: 8pt;
+	font-weight: bold;
+	background-color: #E1D697;
+	overflow: hidden;
+}
+
+.com img {
+	float: left;
+}
+
+.comer {
+	overflow: hidden;
+	margin-bottom: 3em;
+}
+
+.comer img {
+	float: left;
+	margin-right: 5px;
+}
+
+span.danwei {
+	font-style: italic;
+}
+
+.dibu {
+	background-color: #A2B964;
+	position: absolute;
+	bottom: 0;
+	width: 800px;
+	padding: 5px;
+}
+
+.dibu p {
+	margin: 0;
+	text-align: center;
+}
+
+.icon {
+	position: absolute;
+	right: 280px;
+}

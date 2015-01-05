@@ -1,0 +1,105 @@
+body {
+	text-align: center;
+	font-family: "华文隶书","Blackadder ITC","華康秀風體";
+	background-image: url('../img/bg1.jpg');
+    background-attachment: fixed;
+}
+
+h1:first-letter {
+	font-size: 150%;
+}
+
+h2:first-letter {
+	font-size: 150%;
+}
+
+li:first-letter {
+	font-size: 150%;
+}
+
+p:first-letter {
+	font-size: 150%;
+}
+
+#zhuti {
+	margin: 0 auto;
+    width: 1200px;
+	background-color: gray;
+}
+
+.point {
+	font-weight: bold;
+	color:#FFB6C1;
+}
+
+h1 {
+	font-size: 75px;
+}
+
+p {
+	font-size: 35px;
+}
+
+h2 {
+	font-size: 54px;
+}
+
+ol {
+	text-align: left;
+	padding-left: 80px;
+	list-style: none;
+	counter-reset: reverse 4;
+}
+
+ol > li:before {
+	content: counter(reverse) '.';
+}
+
+ol > li {
+	counter-increment: reverse -1;
+}
+
+li {
+	font-size: 30px;
+}
+
+dl {
+	margin: 0;
+}
+
+dt {
+	color: #FFFF66;
+}
+
+#p1 {
+	text-align: left;
+	padding-left: 80px;
+}
+
+#movie {
+	font-size: 25px;
+}
+
+a.link:link {
+	text-decoration: none;
+}
+
+a.link:visited {
+	text-decoration: none;
+}
+
+a.link:hover {
+	text-decoration: underline;
+}
+
+#friend {
+	text-align: left;
+	padding-left: 80px;
+	font-size: 25px;
+	height: 150px;
+}
+
+.name {
+	font-size: 30px;
+	font-weight: bold;
+}

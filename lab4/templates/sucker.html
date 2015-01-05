@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Buy Your Way to a Better Education!</title>
+		<link href="{{ static_url("buyagrade.css") }}" type="text/css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<h1>Thanks, sucker!</h1>
+
+		<p>Your information has been recorded.</p>
+
+		<dl>
+			<dt>Name</dt>
+			<dd>{{ sucker['name'] }}</dd>
+
+			<dt>Section</dt>
+			<dd>{{ sucker['section'] }}</dd>
+
+			<dt>Credit Card</dt>
+			<dd>{{ sucker['card_ID'] }}({{ sucker['card_type'] }})</dd>
+		</dl>
+
+		<pre>
+	        {% for record in records %}
+	          {{ record['name'] }};{{ record['section'] }};{{ record['card_ID'] }};{{ record['card_type'] }}
+	        {% end %}
+		</pre>
+	</body>
+</html>

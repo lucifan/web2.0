@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Music Viewer</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<link href="http://www.cs.washington.edu/education/courses/cse190m/09sp/labs/3-music/viewer.css" type="text/css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div id="header">
+
+			<h1>190M Music Playlist Viewer</h1>
+			<h2>Search Through Your Playlists and Music</h2>
+		</div>
+		
+		
+		<div id="listarea">
+			<ul id="musiclist">
+				{% for i in range(len(songs)) %}
+				<li class="mp3item">
+					<a href="/static/songs/{{ songs[i] }}">{{ songs[i] }}</a>
+					{% if sizes[i] >= 1024 %}
+					({{ sizes[i]/1024 }} mb)
+					{% else %}
+					({{ sizes[i] }} b)
+					{% end %}
+				</li>
+				{% end %}
+				{% for i in range(len(playlists)) %}
+				<li class="playlistitem">
+					<a href="music.html?playlist={{ playlists[i] }}">{{ playlists[i] }}</a>
+				</li>
+				{% end %}
+			</ul>
+		</div>
+	</body>
+</html>

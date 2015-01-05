@@ -1,0 +1,40 @@
+body {
+	background-image: url("http://img3.cccv.cn/rt/mama/2011/10/11/201110111631452235.jpg");
+	background-repeat: repeat;
+	font-family: "华文隶书","Blackadder ITC","華康秀風體";
+	background-attachment: fixed;
+	text-align: center;
+}
+
+.all {
+	margin: 0 auto;
+    width: 1200px;
+	background-color: gray;
+	background-repeat: repeat-y;
+}
+
+h1 {
+	font-size: 75px;
+}
+
+p {
+	font-size: 35px;
+}
+
+h2 {
+	font-size: 54px;
+}
+
+ol {
+	text-align: left;
+	padding-left: 80px;
+}
+
+ul {
+	text-align: left;
+	padding-left: 72px;
+}
+
+li {
+	font-size: 30px;
+}
